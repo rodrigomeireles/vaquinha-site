@@ -1,4 +1,4 @@
-@viewport{
+@viewport {
     width: extend-to-zoom;
     zoom: 1.0;
 }
@@ -129,7 +129,7 @@ ul {
     height: 200px;
 }
 
-.bigquote{
+.bigquote {
     padding: 5% 20% 5% 20%;
     background-color: #e5e7eb;
     color: #1F2937;
@@ -137,7 +137,7 @@ ul {
     flex-flow: column;
 }
 
-.quote{
+.quote {
     text-align: left;
     font-size: 36px;
     font-style: italic;
@@ -206,4 +206,12 @@ p.copyright {
     border: 0;
     margin: 0;
     padding: 12px;
+}
+
+.greeting button:hover,
+.calltoaction button:hover {
+    background-color: yellow;
+    color: #1f2937;
+    transition: 0.7s;
+    cursor: pointer;
 }
